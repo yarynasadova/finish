@@ -53,9 +53,7 @@ header .menu {
 
 }
 
-header .navbar-nav {
-     float: center;
-}
+
 
 main h2 {
     text-align: center;
@@ -110,33 +108,22 @@ main .socialNetwork {
     padding: 0px;
 }
 
-section .adress {
-    float: center;
+main .adress {
     width: 50%;
     margin: 0;
     clear: both;
     background-color: beige;
     align-items: center;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    float: left;
 }
-    
-section .form {
-    float: none;
-    width: 50%;
+
+main .form {
     margin: 0;
-    clear: both;
     background-color: beige;
-    }
 }
 
 footer {
-     align-items: center;
-     clear: both;
-     text-align: center;
+    align-items: center;
+    clear: both;
+    text-align: center;
 }
-
-
