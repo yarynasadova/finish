@@ -112,14 +112,14 @@ main .adress {
     width: 50%;
     margin: 0;
     clear: both;
-    background-color: beige;
+    background-color: ;
     align-items: center;
     float: left;
 }
 
 main .form {
     margin: 0 auto;
-    max-height: 50%;
+    max-height: 20%;
     max-width: 50%;
     padding: 30px 30px 6px 30px;
     border: 1px solid rgba(0,0,0,.2);
