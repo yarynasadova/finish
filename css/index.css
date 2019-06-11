@@ -1,70 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 
 :root {
-
     scroll-behavior: smooth;
 }
 
 header .banner {
-
     background-image: url(../img/05.jpg);
-
     min-height: 300px;
-
     background-position: center;
-
     background-size: cover;
-
     text-align: center;
-
     align-items: center;
-
     justify-content: center;
-
     display: flex;
     margin: 0;
-
 }
 
 header .banner h1 {
-
     font-family: 'IBM Plex Serif', serif;
-
     font-family: 'Pangolin', cursive;
-
     font-size: 5rem;
-
     color: #2F4F4F;
-
     background-color: #F5F5F5;
-
     background: rgba(255, 245, 215, .7);
-
     padding-left: inherit;
-
 }
-
-
 
 header .menu {
-
     display: flex;
-
-
 }
 
-
-
 main h2 {
+    margin: 50px;
     text-align: center;
     clear: both;
     background-color: sandybrown;
+    background-position: center;
+    background-size: cover;
 }
 
 main h3 {
     text-align: center;
     clear: both;
     background-color: peachpuff;
+    margin: 50px;
 }
 
 main .one img {
@@ -112,10 +91,9 @@ main .adress {
     width: 50%;
     margin: 0;
     clear: both;
-    background-color: ;
     align-items: center;
     float: left;
-    align
+    text-align: center;
 }
 
 main .form {
@@ -123,95 +101,105 @@ main .form {
     max-height: 10%;
     max-width: 50%;
     padding: 30px 30px 6px 30px;
-    border: 1px solid rgba(0,0,0,.2);
+    border: 1px solid rgba(0, 0, 0, .2);
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: moccasin; 
-    -moz-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
-    -webkit-box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
-    box-shadow: 0 0 13px 3px rgba(0,0,0,.5);
-    overflow: hidden; 
+    background: moccasin;
+    -moz-box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 13px 3px rgba(0, 0, 0, .5);
+    overflow: hidden;
 }
 
-main textarea{
-    background: rgba(255, 255, 255, 0.4); 
+main textarea {
+    background: rgba(255, 255, 255, 0.4);
     width: 100%;
     height: 100px;
-    border: 1px solid rgba(255,255,255,.6);
+    border: 1px solid rgba(255, 255, 255, .6);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    display:block;
+    background-clip: padding-box;
+    display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 300;
-    color:#fff;
-    padding-left:25px;
-    padding-right:20px;
-    padding-top:12px;
-    margin-bottom:20px;
-    overflow:hidden;
+    color: #fff;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display: flex;
 }
 
 input {
     width: 100%;
-    height: 48px;
-    border: 1px solid rgba(255,255,255,.4);
+    border: 1px solid rgba(255, 255, 255, .4);
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    display:block;
+    background-clip: padding-box;
+    display: block;
     font-family: 'Open Sans', sans-serif;
-    font-size:18px;
-    font-weight: 300;    
-    color:#fff;
-    padding-left:20px;
-    padding-right:20px;
-    margin-bottom:20px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
 }
+
 input[type=submit] {
-    cursor:pointer;
+    cursor: pointer;
 }
+
 input.name {
-    background: rgba(255, 255, 255, 0.4); 
-    padding-left:25px;
+    background: rgba(255, 255, 255, 0.4);
+    padding-left: 25px;
 }
+
 input.email {
     background: rgba(255, 255, 255, 0.4);
-    padding-left:25px;
+    padding-left: 25px;
 }
+
 input.message {
     background: rgba(255, 255, 255, 0.4);
-    padding-left:25px;
+    padding-left: 25px;
 }
+
 ::-webkit-input-placeholder {
     color: #fff;
 }
-:-moz-placeholder{ 
-    color: #fff; 
+
+:-moz-placeholder {
+    color: #fff;
 }
+
 ::-moz-placeholder {
     color: #fff;
 }
-:-ms-input-placeholder {  
-    color: #fff; 
+
+:-ms-input-placeholder {
+    color: #fff;
 }
-input:focus, textarea:focus { 
+
+input:focus,
+textarea:focus {
     background-color: rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    -webkit-box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    box-shadow: 0 0 5px 1px rgba(255,255,255,.5);
-    overflow: hidden; 
+    -moz-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    -webkit-box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, .5);
+    overflow: hidden;
 }
 
 main .btn {
@@ -220,7 +208,7 @@ main .btn {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    float:right;
+    float: right;
     border: 1px solid #253737;
     background: #416b68;
     background: -webkit-gradient(linear, left top, left bottom, from(#6da5a3), to(#416b68));
@@ -233,13 +221,14 @@ main .btn {
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     border-radius: 6px;
-    -webkit-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
-    -moz-box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
-    box-shadow: rgba(255,255,255,0.1) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
     text-shadow: #333333 0 1px 0;
     color: #e1e1e1;
 }
- main .btn:hover {
+
+main .btn:hover {
     border: 1px solid #253737;
     text-shadow: #333333 0 1px 0;
     background: #416b68;
@@ -250,9 +239,10 @@ main .btn {
     background: -o-linear-gradient(top, #77b2b0, #416b68);
     background-image: -ms-linear-gradient(top, #77b2b0 0%, #416b68 100%);
     color: #fff;
- }
+}
+
 main .btn:active {
-    margin-top:1px;
+    margin-top: 1px;
     text-shadow: #333333 0 -1px 0;
     border: 1px solid #333333;
     background: #ffCC00;
@@ -263,9 +253,9 @@ main .btn:active {
     background: -o-linear-gradient(top, #ffcc00, #ff6600);
     background-image: -ms-linear-gradient(top, #ffcc00 0%, #ff6600 100%);
     color: #fff;
-    -webkit-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
-    -moz-box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
-    box-shadow: rgba(255,255,255,0) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
+    -webkit-box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
     outline: none;
 }
 
@@ -275,8 +265,3 @@ footer {
     text-align: center;
 }
 
-
-main .form {
-   
-    
-}
